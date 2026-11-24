@@ -1,0 +1,28 @@
+# Terraform downloaded providers and modules
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform plans
+*.tfplan
+tfplan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.csv
+.env
+credentials
+
+# Local editor files
+.vscode/
+.idea/
+*.swp
+*~
